@@ -1,0 +1,114 @@
+.wrapSignIn {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  display: none;
+  width: 100%;
+  height: 100%;
+  margin-left: auto;
+  background-color: white;
+  box-sizing: border-box;
+  padding: 2.5rem 3rem 2.5rem 3rem;
+  color: #6844fc;
+}
+
+.wrapSignIn .centrat {}
+
+.wrapSignIn h2 {
+  font-size: 2.5rem;
+  margin: 0 0 1rem 0;
+  text-align: center;
+}
+
+.wrapSignIn h3 {
+  text-align: left;
+  font-size: 1rem;
+}
+
+.wrapSignIn input[type=text], input[type=password] {
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 25px;
+  padding: 1rem 1rem;
+  outline: none;
+  border: none;
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-bottom: 1px  #6844fc;
+  box-shadow: 10px;
+  margin-bottom: 0.8rem;
+  font-weight: bold;
+}
+
+.wrapSignIn input[type=submit] {
+  width: 65%;
+  box-sizing: border-box;
+  padding: 0.5rem 0;
+  margin: 0.8rem 0 0.5rem 0;
+  outline: none;
+  border: none;
+  background-color: #6844fc;
+  border-radius: 2rem;
+  font-size: 1.2rem;
+  color: #FFF;
+}
+
+/* LOG IN */
+.wrapLogIn {
+  position: absolute;
+  bottom: 0;
+  display: none;
+  width: 100%;
+  height: 100%;
+  margin-left: auto;
+  background-color: white;
+  box-sizing: border-box;
+  padding: 2.5rem 3rem 2.5rem 3rem;
+  color: #6844fc;
+  position: absolute;
+}
+
+.wrapLogIn h2 {
+  font-size: 2.5rem;
+  margin: 0 0 1rem 0;
+  text-align: center;
+}
+
+.wrapLogIn h3 {
+  text-align: left;
+  font-size: 1rem;
+}
+
+.wrapLogIn input[type=text], input[type=password] {
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 25px;
+  padding: 1rem 1rem;
+  outline: none;
+  border: none;
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 0.8rem;
+  font-weight: bold;
+}
+
+.wrapLogIn input[type=button] {
+  width: 65%;
+  box-sizing: border-box;
+  padding: 0.5rem 0;
+  margin: 0.8rem 0 0.5rem 0;
+  outline: none;
+  border: none;
+  background-color: #6844fc;
+  border-radius: 2rem;
+  font-size: 1.2rem;
+  color: #FFF;
+}
+
+.arrow {
+  font-size: 1.3rem;
+  position: absolute;
+  top: 3.3rem;
+  left: 3rem;
+  float: left;
+}

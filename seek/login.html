@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script type="text/javascript" src="js/jquery-3.4.1.js"></script>
+  <link rel="stylesheet" href="style/loading.css">
+  <link rel="stylesheet" href="style/style.css">
+  <link rel="stylesheet" href="style/signup.css">
+  <title>Seek</title>
+</head>
+
+
+<body>
+
+  <slider>
+    <slide></slide>
+    <slide></slide>
+    <slide></slide>
+    <slide></slide>
+  </slider>
+
+  <div class="buttons">
+    <a id="logIn">
+      <div class="logIn" type="button" name="button">Accedir</div>
+    </a>
+
+    <a id="signIn">
+      <div class="signIn" type="button" name="button">Registre</div>
+    </a>
+
+  </div>
+
+  <div class="wrapSignIn">
+    <div class="centrat">
+
+
+      <h2>Registra't</h2>
+
+      <i id="back" class=" arrow fas fa-chevron-left"></i>
+      <form class="fullbody">
+        <h3>Nom i Cognoms</h3>
+        <input type="text" placeholder="Escriu aqui..." name="" value="">
+        <h3>Correu Electronic</h3>
+        <input type="text" placeholder="Escriu aqui..." name="" value="">
+        <h3>Contrasenya</h3>
+        <input type="password" placeholder="Escriu aqui..." name="" value="">
+        <h3>Professió</h3>
+        <input type="text" placeholder="Escriu aqui..." name="" value="">
+
+        <a href="home.html"><input type="submit" value="Registra't"></a>
+
+      </form>
+    </div>
+  </div>
+
+  <div class="wrapLogIn">
+    <h2>Entra-hi</h2>
+
+    <i id="goBack" class=" arrow fas fa-chevron-left"></i>
+    <form>
+      <h3>Correu electronic</h3>
+      <input type="text" placeholder="Escriu aqui..." name="" value="">
+
+      <h3>Contrasenya</h3>
+      <input type="password" placeholder="Escriu aqui..." name="" value="">
+
+      <a href="home.html"><input type="button" value="Entrar"></a>
+    </form>
+  </div>
+
+  <script>
+    $(".signIn").click(function() {
+      $(".wrapSignIn").slideToggle();
+      $("#back").click(function() {
+        $(".wrapSignIn").slideToggle();
+      });
+    });
+
+    $(".logIn").click(function() {
+      $(".wrapLogIn").slideToggle();
+      $("#goBack").click(function() {
+        $(".wrapLogIn").slideToggle();
+      });
+    });
+  </script>
+
+
+
+
+</body>
+
+</html>
