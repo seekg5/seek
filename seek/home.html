@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script type="text/javascript" src="js/jquery-3.4.1.js"></script>
+  <link rel="stylesheet" href="style/loading.css">
+  <link rel="stylesheet" href="style/style.css">
+  <link rel="stylesheet" href="style/tab.css">
+  <title>Seek</title>
+</head>
+
+<body>
+
+  <div id="displaytag">
+    <p>Projectes a</p><br>
+    <p id="tag">#productor</p>
+  </div>
+
+<!-- CUERPO DE LA PAGINA ( CARTAS ) -->
+
+  <div class="mainCards ">
+      <div style="background-image: url(img/home/1.jpg); background-size: cover;" class="card">
+        <h2> Productor 8-bit</h2>
+        <p>
+          Necesitem un productor que sapiga fer música 8-bit per un projecte de videojocs.
+
+        </p>
+      </div>
+      <div style="background-image: url(img/home/2.jpg); background-size: cover;" class="card">
+        <h2>Compositor</h2>
+        <p>Busquem un productor amb experiéncia per la creació d'un CD.</p>
+
+      </div>
+
+      <div style="background-image: url(img/home/3.jpg);" class="card">
+        <h2> Enginyer d'àudio</h2>
+        <p>
+          Necesitem un enginyer d'àudio per dissenyar música d'ambient.
+        </p>
+      </div>
+
+      <div style="background-image: url(img/home/4.jpg);" class="card">
+        <h2>Mixer</h2>
+        <p>
+          Necessitem un productor que pugui barrejar i masteritzar el nostre nou àlbum.
+
+
+        </p>
+      </div>
+
+  </div>
+
+ <div id="navegador">
+    <ul>
+      <li>
+        <a href="home.html">
+          <img style="width: 1.7em;" src="img/logo.svg">
+        </a>
+      </li>
+
+      <li>
+        <a href="search.html">
+            <i class="fas fa-search icon"></i>
+        </a>
+      </li>
+
+      <li>
+        <a href="newproject.html">
+          <i class="fas fa-plus-circle plus"></i>
+        </a>
+
+        <li>
+          <a href="msn.html">
+            <i class="fas fa-star icon"></i>
+          </a>
+      </li>
+
+      <li>
+        <a href="profile.html">
+          <i class="fas fa-user-circle icon"></i>
+        </a>
+      </li>
+    </ul>
+
+  </div>
+
+
+<script type="text/javascript">
+
+$( ".card" ).click(function() {
+  $(this).toggleClass("open");
+    });
+
+</script>
+
+</body>
+
+</html>
